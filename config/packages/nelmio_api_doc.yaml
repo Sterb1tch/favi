@@ -1,0 +1,12 @@
+nelmio_api_doc:
+    documentation:
+        servers:
+            - url: http://127.0.0.1:8000/
+              description: LOCAL
+        info:
+            title: FAVI
+            version: 1.0.0
+    areas:
+        default:
+        order:
+            with_annotation: true

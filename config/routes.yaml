@@ -1,0 +1,7 @@
+api_v1:
+    resource:
+        path: ../src/Controller/V1/Order
+        namespace: App\Controller\V1\Order
+    type: attribute
+    prefix: /api/v1/order
+    name_prefix: api_v1_order_

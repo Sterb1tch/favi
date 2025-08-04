@@ -1,0 +1,14 @@
+/.env.local
+/.env.local.php
+/.env.*.local
+!/.env.local.dist
+/public/bundles/
+/var/
+/vendor/
+/.idea
+/auth.json
+/coverage/
+/compose.yml
+/.phpcs-cache
+.phpunit.result.cache
+

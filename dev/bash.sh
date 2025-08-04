@@ -1,0 +1,2 @@
+#!/bin/env bash
+docker compose exec -it php sh
