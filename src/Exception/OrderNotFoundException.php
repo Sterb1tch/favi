@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace App\Exception;
 
-use Doctrine\ORM\UnexpectedResultException;
+use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 
-class OrderNotFoundException extends UnexpectedResultException
+class OrderNotFoundException extends NotFoundHttpException
 {
 }

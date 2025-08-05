@@ -9,4 +9,3 @@ docker compose exec -i php composer install
 
 docker compose exec -i php bin/console cache:clear
 docker compose exec -i php bin/console cache:warmup
-docker compose exec -i php bin/console app:warmup

@@ -10,7 +10,7 @@ use App\Entity\Order;
 class OrderDataFactory
 {
     public function __construct(
-        private OrderItemDataFactory $factory,
+        private readonly OrderItemDataFactory $factory,
     ) {
     }
 
