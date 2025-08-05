@@ -1,0 +1,20 @@
+{
+  "partnerId": "1",
+  "orderId": "2",
+  "expectedDeliveryDate": "2025-08-12 12:00:00",
+  "value": 1999.99,
+  "products": [
+    {
+      "productId": "1",
+      "name": "Stůl",
+      "price": 999.99,
+      "quantity": 1
+    },
+    {
+      "productId": "2",
+      "name": "Židle",
+      "price": 1999.99,
+      "quantity": 4
+    }
+  ]
+}

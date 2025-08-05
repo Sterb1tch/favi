@@ -13,6 +13,11 @@ readonly class OrderDeliveryDateUpdatedResponse implements \JsonSerializable
     ) {
     }
 
+    public function getOrder(): Order
+    {
+        return $this->order;
+    }
+
     public function jsonSerialize(): array
     {
         return [

@@ -7,7 +7,7 @@ namespace App\Factory;
 use App\DTO\OrderData;
 use App\Entity\Order;
 
-readonly class OrderDataFactory
+class OrderDataFactory
 {
     public function __construct(
         private OrderItemDataFactory $factory,

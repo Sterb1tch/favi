@@ -8,7 +8,7 @@ use App\DTO\OrderItemData;
 use App\Entity\Order;
 use App\Entity\OrderItem;
 
-readonly class OrderItemDataFactory
+class OrderItemDataFactory
 {
     public function createBulkFromOrder(Order $order): array
     {

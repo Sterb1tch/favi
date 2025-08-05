@@ -8,7 +8,7 @@ use App\DTO\OrderItemData;
 use App\Entity\Order;
 use App\Entity\OrderItem;
 
-readonly class OrderItemFactory
+class OrderItemFactory
 {
     public function createFromOrderAndData(Order $order, OrderItemData $orderItemData): OrderItem
     {
