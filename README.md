@@ -3,3 +3,6 @@
 ```bash
 sh install.sh
 ```
+
+### ApiDoc URL
+>http://127.0.0.1:8000/api/v1/doc/order
