@@ -12,6 +12,10 @@ echo '\e[1;32mInstalling composer...\e[1;m'
 docker compose exec -i php composer install
 echo '\e[1;32m-> Done\e[1;m'
 
+echo '\e[1;32mCreating new database, migrations...\e[1;m'
+#sh ./dev/database.sh
+echo '\e[1;32m-> Done\e[1;m'
+
 echo '\e[1;32mCache cleaning and warmup...\e[1;m'
 docker compose exec -i php php bin/console cache:clear
 docker compose exec -i php php bin/console cache:warmup

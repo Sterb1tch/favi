@@ -6,4 +6,6 @@ parameters:
         - public/
         - src/
         - tests/
+    ignoreErrors:
+        - "#Method [a-zA-Z0-9\\_\\\\:\\(\\)]+ return type has no value type specified in iterable type array#"
     treatPhpDocTypesAsCertain: false
